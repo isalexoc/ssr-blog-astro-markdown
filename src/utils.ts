@@ -11,7 +11,7 @@ function formatDate(date: Date): string {
 
 //capitalize the first letter of a string
 function capitalize(str: string): string {
-  if (typeof str !== "string" || str.lenght === 0) {
+  if (typeof str !== "string" || str.length === 0) {
     return str;
   }
 
